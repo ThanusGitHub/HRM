@@ -1,38 +1,3 @@
-// import React from 'react';
-// import './App.css';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import PayrollForm from "./Pages/PayrollForm";
-// import NavigationBar from './Pages/Navbar';
-// import Dashboard from './Pages/Dashboard'
-// import Employee from './Pages/Employee';
-// import Leave from './Pages/Leave';
-// import Attendance from './Pages/Attendance';
-// import Payroll from './Pages/Payroll';
-// import Administration from './Pages/Administration';
-// import Settings from './Pages/Settings';
-
-// function App() {
-//     return (
-//         <Router>
-//             <NavigationBar />
-//             <div className="container mt-4">
-//                 <Routes>
-//                     <Route path="/" element={<Dashboard />} />
-//                     <Route path="/employee" element={<Employee />} />
-//                     <Route path="/leave" element={<Leave />} />
-//                     <Route path="/attendance" element={<Attendance />} />
-//                     <Route path="/payroll" element={<PayrollForm />} />
-//                     <Route path="/administration" element={<Administration />} />
-//                     <Route path="/settings" element={<Settings />} />
-//                 </Routes>
-//             </div>
-//         </Router>
-//     );
-// }
-
-// export default App;
-
-
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
