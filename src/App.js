@@ -66,7 +66,7 @@ function App() {
                                 <Route path="/attendance" element={<Attendance />} />
                                 <Route path="/attendance/daily-log" component={DailyLog} />
                                 <Route path="/payroll" element={<PayrollForm />} />
-                                <Route path="/administration" element={<Administration />} />
+                                <Route path="/task" element={<TaskManagement />} />
                                 <Route path="/settings" element={<Settings />} />
                             </Routes>
                         </div>
