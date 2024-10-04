@@ -15,7 +15,7 @@ const NavigationBar = () => {
             <Nav.Link as={NavLink} to="/leave" className="mb-2" activeClassName="active-link">Leave</Nav.Link>
             <Nav.Link as={NavLink} to="/attendance" className="mb-2" activeClassName="active-link">Attendance</Nav.Link>
             <Nav.Link as={NavLink} to="/payroll" className="mb-2" activeClassName="active-link">Payroll</Nav.Link>
-            <Nav.Link as={NavLink} to="/administration" className="mb-2" activeClassName="active-link">Administration</Nav.Link>
+            <Nav.Link as={NavLink} to="/task" className="mb-2" activeClassName="active-link">Time Management</Nav.Link>
             <Nav.Link as={NavLink} to="/settings" className="mb-2" activeClassName="active-link">Settings</Nav.Link>
         </Nav>
     );
